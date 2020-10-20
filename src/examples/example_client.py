@@ -1,9 +1,10 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 import rospy
 import math
 
 import ascend_msgs.msg
+#from ascend_msgs.msg import *
 from fluid.srv import *
 from geometry_msgs.msg import Point
 
